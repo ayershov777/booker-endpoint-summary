@@ -25,9 +25,7 @@
 <h3 id="request-payload---">– request payload –</h3>
 <pre><code>
 username: String
-
 email: String
-
 password: String
 
 </code></pre>
@@ -63,7 +61,6 @@ username: String
 <h3 id="request-payload----1">– request payload –</h3>
 <pre><code>
 username: String
-
 password: String
 
 </code></pre>
@@ -96,26 +93,18 @@ username: String
 <h3 id="request-payload----2">– request payload –</h3>
 <pre><code>
 inAuthor?: String
-
 inTitle?: String
-
 subject?: String
-
 isbn?: String
 
 </code></pre>
 <h3 id="response-payload----1">– response payload –</h3>
 <pre><code>
 books: [
-
-thumbnail: String
-
-title: String
-
-author: String
-
-volumeId: String
-
+  thumbnail: String
+  title: String
+  author: String
+  volumeId: String
 ]
 
 </code></pre>
@@ -144,13 +133,9 @@ volumeId: String
 <h3 id="request-payload----3">– request payload –</h3>
 <pre><code>
 token: String
-
 books: [
-
-volumeId: String
-
-critique: String
-
+  volumeId: String
+  critique: String
 ]
 
 </code></pre>
