@@ -1,3 +1,8 @@
+---
+
+
+---
+
 <h1 id="booker-mvp-api-summary-a-id0a">Booker MVP API Summary <a id="0"></a></h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
@@ -16,15 +21,27 @@
 </ol>
 <hr>
 <hr>
+<hr>
 <h2 id="post-authsignup-a-idauth-signupa">POST /auth/signup <a id="auth-signup"></a></h2>
 <h3 id="request-payload---">– request payload –</h3>
-<pre><code>username: String
+<pre><code>
+username: String
+
 email: String
-password: String</code></pre>
+
+password: String
+
+</code></pre>
 <h3 id="valid-response-payload---">– valid response payload –</h3>
-<pre><code>token: String</code></pre>
+<pre><code>
+token: String
+
+</code></pre>
 <h3 id="token-payload---">– token payload –</h3>
-<pre><code>username: String</code></pre>
+<pre><code>
+username: String
+
+</code></pre>
 <h3 id="summary">Summary:</h3>
 <ul>
 <li>
@@ -45,12 +62,22 @@ password: String</code></pre>
 <hr>
 <h2 id="post-authlogin-a-idauth-logina">POST /auth/login <a id="auth-login"></a></h2>
 <p>— request payload —</p>
-<pre><code>username: String
-password: String</code></pre>
+<pre><code>
+username: String
+
+password: String
+
+</code></pre>
 <p>— response payload —</p>
-<pre><code>token: String</code></pre>
+<pre><code>
+token: String
+
+</code></pre>
 <p>— token payload —</p>
-<pre><code>username: String</code></pre>
+<pre><code>
+username: String
+
+</code></pre>
 <h3 id="summary-1">Summary</h3>
 <ul>
 <li>
@@ -68,17 +95,31 @@ password: String</code></pre>
 <hr>
 <h2 id="post-bookssearch-a-idbooks-searcha">POST /books/search <a id="books-search"></a></h2>
 <p>— request payload —</p>
-<pre><code>inAuthor?: String
+<pre><code>
+inAuthor?: String
+
 inTitle?: String
+
 subject?: String
-isbn?: String</code></pre>
+
+isbn?: String
+
+</code></pre>
 <p>— response payload —</p>
-<pre><code>books: [
-  thumbnail: String
-  title: String
-  author: String
-  volumeId: String
-]</code></pre>
+<pre><code>
+books: [
+
+thumbnail: String
+
+title: String
+
+author: String
+
+volumeId: String
+
+]
+
+</code></pre>
 <h3 id="summary-2">Summary</h3>
 <ul>
 <li>
@@ -102,11 +143,18 @@ isbn?: String</code></pre>
 <hr>
 <h2 id="post-onboard-a-idonboarda">POST /onboard <a id="onboard"></a></h2>
 <p>— request payload —</p>
-<pre><code>token: String
+<pre><code>
+token: String
+
 books: [
-  volumeId: String
-  critique: String
-]</code></pre>
+
+volumeId: String
+
+critique: String
+
+]
+
+</code></pre>
 <h3 id="summary-3">Summary</h3>
 <ul>
 <li>
