@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="booker-mvp-api-summary-a-id0a">Booker MVP API Summary <a id="0"></a></h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
@@ -19,7 +14,6 @@
 <p>POST <a href="#onboard">/onboard</a></p>
 </li>
 </ol>
-<hr>
 <hr>
 <hr>
 <h2 id="post-authsignup-a-idauth-signupa">POST /auth/signup <a id="auth-signup"></a></h2>
@@ -122,8 +116,8 @@ isbn?: String
 <p>— request payload —</p>
 <pre><code>token: String
 books: [
-volumeId: String
-critique: String
+  volumeId: String
+  critique: String
 ]
 </code></pre>
 <h3 id="summary-3">Summary</h3>
