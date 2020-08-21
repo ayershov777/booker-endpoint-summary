@@ -21,12 +21,13 @@
 </ol>
 <hr>
 <hr>
-<hr>
 <h2 id="post-authsignup-a-idauth-signupa">POST /auth/signup <a id="auth-signup"></a></h2>
 <h3 id="request-payload---">– request payload –</h3>
 <pre><code>
 username: String
+
 email: String
+
 password: String
 
 </code></pre>
@@ -59,18 +60,19 @@ username: String
 <p><a href="#0">#top</a></p>
 <hr>
 <h2 id="post-authlogin-a-idauth-logina">POST /auth/login <a id="auth-login"></a></h2>
-<p>— request payload —</p>
+<h3 id="request-payload----1">– request payload –</h3>
 <pre><code>
 username: String
+
 password: String
 
 </code></pre>
-<p>— response payload —</p>
+<h3 id="response-payload---">– response payload –</h3>
 <pre><code>
 token: String
 
 </code></pre>
-<p>— token payload —</p>
+<h3 id="token-payload----1">– token payload –</h3>
 <pre><code>
 username: String
 
@@ -91,21 +93,29 @@ username: String
 <p><a href="#0">#top</a></p>
 <hr>
 <h2 id="post-bookssearch-a-idbooks-searcha">POST /books/search <a id="books-search"></a></h2>
-<p>— request payload —</p>
+<h3 id="request-payload----2">– request payload –</h3>
 <pre><code>
 inAuthor?: String
+
 inTitle?: String
+
 subject?: String
+
 isbn?: String
 
 </code></pre>
-<p>— response payload —</p>
+<h3 id="response-payload----1">– response payload –</h3>
 <pre><code>
 books: [
-  thumbnail: String
-  title: String
-  author: String
-  volumeId: String
+
+thumbnail: String
+
+title: String
+
+author: String
+
+volumeId: String
+
 ]
 
 </code></pre>
@@ -131,12 +141,16 @@ books: [
 <p><a href="#0">#top</a></p>
 <hr>
 <h2 id="post-onboard-a-idonboarda">POST /onboard <a id="onboard"></a></h2>
-<p>— request payload —</p>
+<h3 id="request-payload----3">– request payload –</h3>
 <pre><code>
 token: String
+
 books: [
-  volumeId: String
-  critique: String
+
+volumeId: String
+
+critique: String
+
 ]
 
 </code></pre>
@@ -159,10 +173,10 @@ books: [
 <p><a href="#0">#top</a></p>
 <hr>
 <h2 id="post-copy_this-a-idcopy-thisa">POST /copy_this <a id="copy-this"></a></h2>
-<p>— request payload —</p>
+<h3 id="request-payload----4">– request payload –</h3>
 <pre><code>
 </code></pre>
-<p>— response payload —</p>
+<h3 id="response-payload----2">– response payload –</h3>
 <pre><code>
 </code></pre>
 <h3 id="summary-4">Summary</h3>
