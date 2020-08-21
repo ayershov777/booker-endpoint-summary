@@ -62,9 +62,7 @@ username: String
 password: String
 </code></pre>
 <p>— response payload —</p>
-<pre><code>
-token: String
-</code></pre>
+<pre><code>token: String</code></pre>
 <p>— token payload —</p>
 <pre><code>
 username: String
@@ -86,15 +84,13 @@ username: String
 <hr>
 <h2 id="post-bookssearch-a-idbooks-searcha">POST /books/search <a id="books-search"></a></h2>
 <p>— request payload —</p>
-<pre><code>
-inAuthor?: String
+<pre><code>inAuthor?: String
 inTitle?: String
 subject?: String
 isbn?: String
 </code></pre>
 <p>— response payload —</p>
-<pre><code>
-books: [
+<pre><code>books: [
   thumbnail: String
   title: String
   author: String
@@ -124,8 +120,7 @@ books: [
 <hr>
 <h2 id="post-onboard-a-idonboarda">POST /onboard <a id="onboard"></a></h2>
 <p>— request payload —</p>
-<pre><code>
-token: String
+<pre><code>token: String
 books: [
 volumeId: String
 critique: String
